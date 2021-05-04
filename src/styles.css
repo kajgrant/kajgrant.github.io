@@ -1,0 +1,11 @@
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+.nameHeader {  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Times New Roman';}
