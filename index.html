@@ -8,10 +8,28 @@
     <title>Kaj Grant</title>
 </head>
 <body>
-    <div class="nameHeader">
-        <h1>hi.</h1>
-        <h2>I'm Kaj</h2>
-    </div>
+    <header>
+        <div layout="column" layout-align="center center" class="nameHeader">
+            <h1>hi.</h1>
+            <h2>I'm Kaj</h2>
+        </div>
+    </header>
+    <main ng-controller="MainController">
+        <div layout="row" layout-align="center center">
+            <md-button class="nav" ng-click="showPersonal()">
+                <div><i class="fa fa-microchip fa-2x"></i> </div>
+                <div>Personal</div>
+            </md-button> 
+            <md-button class="nav" ng-click="showNetflix()">
+                <div><i class="fa fa-volume-up fa-2x"></i> </div>
+                <div>Netflix Theme</div>
+            </md-button> 
+            <md-button class="nav" ng-click="showGame()">
+                <div><i class="fa fa-gamepad fa-2x"></i> </div>
+                <div>Game Dev</div>
+            </md-button>
+        </div>
+    </main>
 </body>
 </html>
 
